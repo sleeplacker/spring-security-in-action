@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.laurentiuspilca</groupId>
-    <artifactId>ssia-ch3-ex1</artifactId>
+    <artifactId>ssia-ch03-ex1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ssia-ch3-ex1</name>
+    <name>ssia-ch03-ex1</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
