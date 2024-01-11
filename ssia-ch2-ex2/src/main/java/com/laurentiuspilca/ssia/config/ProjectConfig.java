@@ -28,14 +28,16 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
         return userDetailsService;
     }
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return NoOpPasswordEncoder.getInstance();
-    }
-
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        http.httpBasic();
-        http.authorizeRequests().anyRequest().authenticated();
-    }
+//    @Bean
+//    public PasswordEncoder passwordEncoder() {
+//        return NoOpPasswordEncoder.getInstance();
+//    }
+//
+//    @Override
+//    protected void configure(HttpSecurity http) throws Exception {
+//        http.httpBasic();
+//        http.authorizeRequests().anyRequest().authenticated();
+//        // 下面配置对所有端点都不做认证
+////        http.authorizeRequests().anyRequest().permitAll();
+//    }
 }
